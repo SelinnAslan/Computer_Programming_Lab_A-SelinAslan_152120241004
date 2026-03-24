@@ -14,7 +14,8 @@ void append(Node*& head, string word) {
 
      if (head == NULL) {
         head = newNode;
-     }else{Node* temp = head;
+     }else{
+        Node* temp = head;
         while (temp->next != NULL) {
             temp = temp->next;
         }
